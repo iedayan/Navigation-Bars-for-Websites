@@ -1,0 +1,34 @@
+body {
+    background: #FBE7E7;
+}
+
+.navigationbar {
+
+    /* you could change the alignment of your navigation bar */
+
+    /* text-align: end; */
+    /* text-align: left; */
+    text-align: center;
+}
+
+.navigationbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigationbar li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 30px;
+}
+
+.navigationbar ul > li > a {
+    color: #F45151;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigationbar ul > li > a:hover {
+    color: rgb(226, 7, 7);
+}
